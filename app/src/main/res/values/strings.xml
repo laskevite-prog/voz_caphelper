@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">VOZ</string>
+    <string name="home_title_caphelper">CapHelper</string>
+    <string name="home_subtitle_ods5">Protótipo aliado à ODS 5.2 - Igualdade de Gênero</string>
+    <string name="home_description">App discreto para apoio, registro de incidentes e acesso a informações sobre violência contra a mulher.</string>
+    <string name="home_btn_info">Informações e orientações</string>
+    <string name="home_btn_denuncia">Registrar denúncia</string>
+    <string name="home_btn_registros">Meus registros</string>
+    <string name="home_btn_indicadores">Indicadores ODS 5.2</string>
+    <string name="home_btn_bo_online">B.O. online / Delegacia Virtual</string>
+    <string name="home_btn_config">Configurações / Sobre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- DENÚNCIA -->
+    <string name="denuncia_title">Registrar denúncia</string>
+    <string name="denuncia_subtitle">Você pode registrar um relato de forma sigilosa. Em um cenário real, estes dados seriam encaminhados a órgãos competentes.</string>
+    <string name="denuncia_hint_agressor_nome">Nome e sobrenome do agressor (se souber)</string>
+    <string name="denuncia_hint_relacao">Relação com o agressor (companheiro, ex, desconhecido, etc.)</string>
+    <string name="denuncia_hint_tipo_violencia">Tipo de violência (física, sexual, psicológica, etc.)</string>
+    <string name="denuncia_hint_local">Local da ocorrência (residência, trabalho, via pública, transporte, etc.)</string>
+    <string name="denuncia_hint_descricao">Descreva o que aconteceu (data aproximada, contexto, etc.)</string>
+    <string name="denuncia_btn_enviar">Salvar denúncia</string>
+    <string name="denuncia_msg_campos_obrigatorios">Preencha ao menos agressor, tipo de violência e local.</string>
+    <string name="denuncia_msg_sucesso">Denúncia registrada localmente.</string>
+
+    <!-- REGISTROS -->
+    <string name="registros_title">Meus registros de denúncia (somente neste dispositivo)</string>
+    <string name="registros_empty">Nenhuma denúncia registrada ainda neste dispositivo.</string>
+
+    <!-- NOVO: subtítulo opcional para a tela de registros -->
+    <string name="registros_subtitle">
+        Aqui são exibidos os registros de denúncias feitas neste dispositivo. Os dados são locais e não são enviados automaticamente a nenhum serviço externo.
+    </string>
+
+    <!-- INDICADORES ODS 5.2 -->
+    <string name="indicadores_title">Indicadores locais - ODS 5.2</string>
+    <string name="indicadores_subtitle">Estes indicadores são calculados apenas com base nas denúncias registradas neste dispositivo, para fins de protótipo acadêmico.</string>
+    <string name="indicadores_empty">Ainda não há denúncias registradas para calcular indicadores.</string>
+
+    <!-- B.O. ONLINE / DELEGACIA VIRTUAL -->
+    <string name="bo_title">B.O. online e Delegacia Virtual</string>
+    <string name="bo_subtitle">Nesta tela, você pode acessar a Delegacia Virtual do seu estado (via navegador) e ligar para a Central de Atendimento à Mulher (180).</string>
+    <string name="bo_warning">Atenção: este aplicativo é um protótipo acadêmico. Para registrar um boletim de ocorrência oficial, utilize os canais do governo (Delegacia da Mulher, Delegacia Virtual, 180, 190), conforme sua localidade.</string>
+    <string name="bo_btn_delegacia_virtual">Abrir Delegacia Virtual</string>
+    <string name="bo_btn_ligar_180">Ligar 180 (Central de Atendimento à Mulher)</string>
+
+    <!-- INFORMAÇÕES E ORIENTAÇÕES -->
+    <string name="info_title">Informações e orientações</string>
+    <string name="info_intro">
+        O CapHelper é um protótipo acadêmico alinhado à ODS 5.2, voltado ao apoio de mulheres em situação de violência de gênero.
+        Ele não substitui canais oficiais de denúncia, mas ajuda a organizar informações, registrar relatos e lembrar os principais recursos de apoio.
+    </string>
+
+    <string name="info_section_tipos_title">Tipos de violência de gênero (exemplos)</string>
+    <string name="info_section_tipos_text">
+        • Violência física: empurrões, tapas, socos, chutes, estrangulamento, uso de armas ou objetos para ferir.\n
+        • Violência sexual: estupro, tentativa de estupro, coerção para atos sexuais sem consentimento, abuso em espaços públicos ou privados.\n
+        • Violência psicológica: humilhações, ameaças, isolamento, controle de celular e redes sociais, chantagem emocional.\n
+        • Violência moral e patrimonial: xingamentos, difamação, destruição de objetos pessoais, retenção de documentos, controle financeiro abusivo.
+    </string>
+
+    <string name="info_section_canais_title">Canais oficiais de ajuda no Brasil (exemplos)</string>
+    <string name="info_section_canais_text">
+        • 180 – Central de Atendimento à Mulher: orientação, acolhimento e encaminhamento de casos.\n
+        • 190 – Emergência policial: em situação de risco imediato à integridade física.\n
+        • Delegacias da Mulher: atendimento especializado para casos de violência de gênero.\n
+        • Delegacia Virtual: em alguns estados, é possível registrar boletim de ocorrência online em casos específicos.
+    </string>
+
+    <string name="info_section_seguranca_title">Cuidados de segurança ao buscar ajuda</string>
+    <string name="info_section_seguranca_text">
+        Se você estiver em situação de risco, priorize a sua segurança física.
+        Sempre que possível, use dispositivos e redes de confiança, apague históricos de navegação e evite confrontar o agressor diretamente.
+        Em emergência, ligue 190 ou procure apoio em locais públicos e serviços de saúde, assistência social ou segurança pública.
+    </string>
+
+    <!-- CONFIGURAÇÕES / SOBRE -->
+    <string name="config_title">Configurações e Sobre</string>
+    <string name="config_sobre">
+        O CapHelper (VOZ) é um protótipo acadêmico desenvolvido para a disciplina de desenvolvimento mobile,
+        alinhado à ODS 5 – Igualdade de Gênero, com foco na meta 5.2 (eliminação da violência contra mulheres e meninas).
+        O objetivo é demonstrar, em um cenário idealizado, como um aplicativo governamental poderia apoiar o registro de relatos,
+        a geração de indicadores e o acesso rápido a canais oficiais de ajuda.
+    </string>
+    <string name="config_aviso_dados">
+    As denúncias registradas neste protótipo são armazenadas localmente e também alimentam uma base de indicadores simulada.
+    O botão abaixo limpa apenas o histórico local da tela "Meus registros", sem apagar os dados já considerados nos indicadores.
+    Isso ajuda a proteger a privacidade da usuária caso o dispositivo seja compartilhado ou monitorado.
+    </string>
+
+    <string name="config_btn_limpar_registros">Limpar registros locais de denúncia</string>
+    <string name="config_msg_limpo">Registros locais de denúncia foram apagados.</string>
+
+    <!-- NOVO: CADASTRO / PERFIL -->
+    <string name="cadastro_hint_nome_completo">Nome completo</string>
+    <string name="cadastro_label_genero">Gênero</string>
+    <string name="cadastro_genero_cis">Cis</string>
+    <string name="cadastro_genero_trans">Trans</string>
+    <string name="cadastro_hint_data_nascimento">Data de nascimento (dd/mm/aaaa)</string>
+    <string name="cadastro_hint_idade">Idade</string>
+    <string name="cadastro_hint_estado_civil">Estado civil (ex.: Solteira, Casada)</string>
+    <string name="cadastro_hint_regiao">Região onde mora (bairro/cidade)</string>
+    <string name="cadastro_cb_ja_sofreu_abuso">Já sofreu algum tipo de abuso</string>
+    <string name="cadastro_hint_relacao_agressor">Relação com o agressor (ex.: parceiro atual, ex-parceiro, familiar)</string>
+    <string name="cadastro_cb_aceito_termos">Li e aceito os termos de uso e a política de privacidade</string>
+    <string name="cadastro_btn_concluir">Concluir cadastro</string>
+
+    <!-- NOVO: mensagens de erro do cadastro -->
+    <string name="cadastro_erro_nome_obrigatorio">Informe o nome completo</string>
+    <string name="cadastro_erro_genero_obrigatorio">Selecione o gênero (Cis ou Trans)</string>
+    <string name="cadastro_erro_data_obrigatoria">Informe a data de nascimento</string>
+    <string name="cadastro_erro_estado_civil_obrigatorio">Informe o estado civil</string>
+    <string name="cadastro_erro_regiao_obrigatoria">Informe a região onde mora</string>
+    <string name="cadastro_erro_relacao_agressor_obrigatoria">Informe a relação com o agressor</string>
+    <string name="cadastro_erro_termos_obrigatorio">Você precisa aceitar os termos para continuar</string>
+
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/authFragment">
+
+    <!-- TELA INICIAL: AUTH -->
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.projeto.caphelper.ui.auth.AuthFragment"
+        android:label="Boas-vindas"
+        tools:layout="@layout/fragment_auth">
+
+        <action
+            android:id="@+id/action_authFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+
+        <action
+            android:id="@+id/action_authFragment_to_cadastroFragment"
+            app:destination="@id/cadastroFragment" />
+    </fragment>
+
+    <!-- LOGIN -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.projeto.caphelper.ui.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+
+        <action
+            android:id="@+id/action_loginFragment_to_cadastroFragment"
+            app:destination="@id/cadastroFragment" />
+    </fragment>
+
+    <!-- CADASTRO / PERFIL -->
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="com.projeto.caphelper.ui.auth.CadastroFragment"
+        android:label="Cadastro"
+        tools:layout="@layout/fragment_cadastro">
+
+        <action
+            android:id="@+id/action_cadastroFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <!-- HOME -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.projeto.caphelper.ui.home.HomeFragment"
+        android:label="CapHelper"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_denunciaFragment"
+            app:destination="@id/denunciaFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_registrosFragment"
+            app:destination="@id/registrosFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_indicadoresFragment"
+            app:destination="@id/indicadoresFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_boOnlineFragment"
+            app:destination="@id/boOnlineFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_configFragment"
+            app:destination="@id/configFragment" />
+
+        <!-- pra "Meu perfil / primeiros passos" abrir o Cadastro -->
+        <action
+            android:id="@+id/action_homeFragment_to_cadastroFragment"
+            app:destination="@id/cadastroFragment" />
+    </fragment>
+
+    <!-- OUTROS DESTINOS -->
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.projeto.caphelper.ui.info.InfoFragment"
+        android:label="Informações"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/denunciaFragment"
+        android:name="com.projeto.caphelper.ui.denuncia.DenunciaFragment"
+        android:label="Denúncia"
+        tools:layout="@layout/fragment_denuncia" />
+
+    <fragment
+        android:id="@+id/registrosFragment"
+        android:name="com.projeto.caphelper.ui.registros.RegistrosFragment"
+        android:label="Meus registros"
+        tools:layout="@layout/fragment_registros" />
+
+    <fragment
+        android:id="@+id/indicadoresFragment"
+        android:name="com.projeto.caphelper.ui.indicadores.IndicadoresFragment"
+        android:label="Indicadores"
+        tools:layout="@layout/fragment_indicadores" />
+
+    <fragment
+        android:id="@+id/boOnlineFragment"
+        android:name="com.projeto.caphelper.ui.boonline.BoOnlineFragment"
+        android:label="B.O. online"
+        tools:layout="@layout/fragment_bo_online" />
+
+    <fragment
+        android:id="@+id/configFragment"
+        android:name="com.projeto.caphelper.ui.config.ConfigFragment"
+        android:label="Configurações"
+        tools:layout="@layout/fragment_config" />
+
+</navigation>

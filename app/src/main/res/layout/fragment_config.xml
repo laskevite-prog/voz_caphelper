@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/tvConfigTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/config_title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Texto 'Sobre' -->
+        <TextView
+            android:id="@+id/tvConfigSobre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/config_sobre"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Aviso sobre dados e histórico local -->
+        <TextView
+            android:id="@+id/tvConfigAvisoDados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/config_aviso_dados"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Botão para limpar registros locais -->
+        <Button
+            android:id="@+id/btnLimparRegistros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/config_btn_limpar_registros"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

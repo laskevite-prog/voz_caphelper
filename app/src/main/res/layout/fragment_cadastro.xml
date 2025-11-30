@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Nome completo -->
+        <EditText
+            android:id="@+id/etNomeCompleto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cadastro_hint_nome_completo" />
+
+        <!-- Gênero (CIS / TRANS) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastro_label_genero"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/rgGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbGeneroCis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastro_genero_cis" />
+
+            <RadioButton
+                android:id="@+id/rbGeneroTrans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastro_genero_trans"
+                android:layout_marginStart="16dp" />
+        </RadioGroup>
+
+        <!-- Data de nascimento -->
+        <EditText
+            android:id="@+id/etDataNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cadastro_hint_data_nascimento"
+            android:layout_marginTop="16dp" />
+
+        <!-- Idade -->
+        <EditText
+            android:id="@+id/etIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cadastro_hint_idade"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <!-- Estado civil -->
+        <EditText
+            android:id="@+id/etEstadoCivil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cadastro_hint_estado_civil"
+            android:layout_marginTop="16dp" />
+
+        <!-- Região onde mora -->
+        <EditText
+            android:id="@+id/etRegiao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cadastro_hint_regiao"
+            android:layout_marginTop="16dp" />
+
+        <!-- Já sofreu algum tipo de abuso -->
+        <CheckBox
+            android:id="@+id/cbJaSofreuAbuso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastro_cb_ja_sofreu_abuso"
+            android:layout_marginTop="16dp" />
+
+        <!-- Relação com o agressor -->
+        <EditText
+            android:id="@+id/etRelacaoAgressor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cadastro_hint_relacao_agressor"
+            android:layout_marginTop="16dp" />
+
+        <!-- Termos de uso -->
+        <CheckBox
+            android:id="@+id/cbAceitoTermos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastro_cb_aceito_termos"
+            android:layout_marginTop="24dp" />
+
+        <!-- Botão de salvar -->
+        <Button
+            android:id="@+id/btnSalvarCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastro_btn_concluir"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

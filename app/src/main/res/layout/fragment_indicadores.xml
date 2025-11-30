@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Título da tela -->
+        <TextView
+            android:id="@+id/tvIndicadoresTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/indicadores_title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Subtítulo explicando que é local e acadêmico -->
+        <TextView
+            android:id="@+id/tvIndicadoresSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/indicadores_subtitle"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Mensagem quando não há dados -->
+        <TextView
+            android:id="@+id/tvIndicadoresEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/indicadores_empty"
+            android:textSize="14sp"
+            android:layout_marginTop="24dp"
+            android:visibility="gone" />
+
+        <!-- Área com os dados de indicadores (mostrada só quando houver denúncias) -->
+        <LinearLayout
+            android:id="@+id/layoutIndicadoresDados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+
+            <!-- Total de denúncias -->
+            <TextView
+                android:id="@+id/tvTotalDenuncias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total de denúncias:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Indicador parceiro/ex (ODS 5.2.1) -->
+            <TextView
+                android:id="@+id/tvParceiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Com parceiro/ex (ODS 5.2.1):"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp" />
+
+            <!-- Indicador outros agressores (ODS 5.2.2) -->
+            <TextView
+                android:id="@+id/tvNaoParceiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Outros agressores (ODS 5.2.2):"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp" />
+
+            <!-- Violência sexual com parceiro/ex -->
+            <TextView
+                android:id="@+id/tvSexualParceiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Violência sexual com parceiro/ex:"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp" />
+
+            <!-- Violência sexual com outros agressores -->
+            <TextView
+                android:id="@+id/tvSexualNaoParceiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Violência sexual com outros agressores:"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

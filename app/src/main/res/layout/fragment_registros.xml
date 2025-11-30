@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Título da tela -->
+        <TextView
+            android:id="@+id/tvRegistrosTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registros_title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Subtítulo explicando que é histórico local -->
+        <TextView
+            android:id="@+id/tvRegistrosSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registros_subtitle"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Mensagem quando não há registros -->
+        <TextView
+            android:id="@+id/tvRegistrosEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registros_empty"
+            android:textSize="14sp"
+            android:layout_marginTop="24dp"
+            android:visibility="gone" />
+
+        <!-- Container onde os cards de denúncia serão adicionados -->
+        <LinearLayout
+            android:id="@+id/layoutListaRegistros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

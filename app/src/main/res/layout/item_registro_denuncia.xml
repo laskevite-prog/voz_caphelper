@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="12dp"
+    android:background="@android:color/white"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/tvRegistroAgressor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agressor: ..."
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvRegistroRelacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relação: ..."
+        android:textSize="14sp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tvRegistroTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de violência: ..."
+        android:textSize="14sp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tvRegistroLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local: ..."
+        android:textSize="14sp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tvRegistroDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição: ..."
+        android:textSize="13sp"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

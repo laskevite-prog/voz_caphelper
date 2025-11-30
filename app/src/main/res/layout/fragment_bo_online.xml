@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/tvBoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bo_title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Subtítulo / descrição -->
+        <TextView
+            android:id="@+id/tvBoDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bo_subtitle"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Botão para abrir a Delegacia Virtual no navegador -->
+        <Button
+            android:id="@+id/btnAbrirDelegaciaVirtual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bo_btn_delegacia_virtual"
+            android:layout_marginTop="24dp" />
+
+        <!-- Botão para preparar ligação ao 180 -->
+        <Button
+            android:id="@+id/btnLigar180"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bo_btn_ligar_180"
+            android:layout_marginTop="12dp" />
+
+        <!-- Aviso sobre protótipo e canais oficiais -->
+        <TextView
+            android:id="@+id/tvBoWarning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bo_warning"
+            android:textSize="12sp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
