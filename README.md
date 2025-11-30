@@ -10,6 +10,9 @@
     - Helena Henriques Lasquevite (RA: 72450125)
     - Rodrigo Póvoa Braule Pinto Júnior (RA: 72450800)
 
+## Observação: 
+O código-fonte principal do protótipo está no branch `master` deste repositório.
+
 # Voz - "CapHelper"
 
 Protótipo de aplicativo Android nativo (Kotlin) alinhado ao **ODS 5 – Igualdade de Gênero**, com foco nas **metas 5.2, 5.2.1 e 5.2.2** da ONU: eliminar todas as formas de violência contra mulheres e meninas, incluindo violência doméstica, violência sexual e outras formas de abuso nas esferas pública e privada.
